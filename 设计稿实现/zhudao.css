@@ -1,0 +1,26 @@
+.zhudao{
+    border-bottom:1px solid rgb(17, 17, 16);
+}
+.daohe{
+    width: 960px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.daohe:after{
+    clear: both;
+}
+.daohe div{
+    border: 1px solid black;
+    height: 40px;
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-bottom:aliceblue;
+    background-color: rgba(54, 84, 110, 0.377);
+    margin-top: 60px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

@@ -1,0 +1,16 @@
+.content{
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+}
+.content div{
+    border: 1px solid rgb(187, 187, 185);
+    margin: 5px;
+    width:80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}

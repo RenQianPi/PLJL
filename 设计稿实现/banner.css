@@ -1,0 +1,22 @@
+.banner{
+    background-color: rgb(51, 209, 51);
+    height: 200px;
+    position: relative;
+}
+.number{
+    display: flex;
+    width: 100px;
+    margin: 0px;
+    background-color: rgb(51, 209, 51);
+    position: absolute;
+    bottom: 0px;
+    right:200px ;
+}
+.number div{
+    background-color: rgba(241, 244, 247,0.5);
+    border: 1px solid black;
+    flex:1;
+    margin: 3px;
+    padding: 0px;
+    text-align: center;
+}

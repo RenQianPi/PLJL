@@ -1,0 +1,9 @@
+.foot{
+    background-color: rgba(0, 0, 0, 0.74);
+    position: absolute;
+    bottom: 0px;
+    height: 100px;
+    width:100%;
+    text-align: center;
+    color: aliceblue;
+}

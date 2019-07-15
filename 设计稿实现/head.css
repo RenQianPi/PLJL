@@ -1,0 +1,45 @@
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.head{
+    background-color: rgba(0, 0, 0, 0.74);
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+.tou{
+    width: 960px;
+    margin: 0px auto;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+}
+.head .logo{
+    color: aliceblue;
+    font-family: "MicrosoftYaHei";
+    font-size: 30px;
+}
+.head .daohang{  
+    position: absolute;
+    font-size: 15px; 
+    color:aliceblue;
+    top:0px;
+    right: 0px;
+    margin:0px;
+    padding: 0px;
+}
+a:link{
+    color: aliceblue
+}
+a:hover{
+    color:aliceblue;
+}
+a:active{
+    color: aliceblue;
+}
+a:visited{
+    color:aliceblue;
+}

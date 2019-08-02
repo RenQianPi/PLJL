@@ -8,8 +8,9 @@ sug.addEventListener("click",function(ev){
   var target=ev.target||ev.srcElement;
   if(target.nodeName.toLowerCase()=="ol"){
    hide();
+   jiaodian();
    return txt.value= target.innerHTML;  
-  }  
+  }
  })
  document.addEventListener("keydown",jianpan);
 // keys.addEventListener("keyup",function(){
@@ -147,4 +148,11 @@ list[nowSelectTipIndex].setAttribute("class","active");
    hide();
 return txt.value=list[nowSelectTipIndex].innerHTML;
  }
+ if(key==27){
+   txt.select()
+ }
+}
+
+function jiaodian(){
+  txt.focus();//设定焦点的位置在文本框
 }
